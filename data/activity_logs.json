@@ -1,0 +1,31 @@
+[
+  {
+    "_id": { "$oid": "64f9c4a12f8e4b3d9ef1a225" },
+    "user_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c1" },
+    "action": "joined_game",
+    "details": {
+      "game_id": { "$oid": "64f9c30f2f8e4b3d9ef1a1d1" },
+      "session_id": { "$oid": "64f9c3702f8e4b3d9ef1a1e5" }
+    },
+    "timestamp": { "$date": "1985-03-16T16:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64f9c4a12f8e4b3d9ef1a226" },
+    "user_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+    "action": "created_post",
+    "details": {
+      "post_id": { "$oid": "64f9c4602f8e4b3d9ef1a211" },
+      "channel_id": { "$oid": "64f9c4152f8e4b3d9ef1a201" }
+    },
+    "timestamp": { "$date": "1985-03-16T10:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64f9c4a12f8e4b3d9ef1a227" },
+    "user_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c3" },
+    "action": "joined_channel",
+    "details": {
+      "channel_id": { "$oid": "64f9c4152f8e4b3d9ef1a202" }
+    },
+    "timestamp": { "$date": "1985-03-11T09:00:00Z" }
+  }
+]

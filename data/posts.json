@@ -1,0 +1,52 @@
+[
+  {
+    "_id": { "$oid": "64f9c4602f8e4b3d9ef1a211" },
+    "channel_id": { "$oid": "64f9c4152f8e4b3d9ef1a201" },
+    "author_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+    "title": "Cómo llegar al nivel oculto",
+    "content": "Después de la tercera puerta, tocá tres veces la pared...",
+    "created_at": { "$date": "1985-03-16T10:00:00Z" },
+    "comments": [
+      {
+        "author_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c1" },
+        "text": "¡Lo probé y funcionó!",
+        "created_at": { "$date": "1985-03-16T11:00:00Z" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64f9c4602f8e4b3d9ef1a212" },
+    "channel_id": { "$oid": "64f9c4152f8e4b3d9ef1a202" },
+    "author_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c3" },
+    "title": "Nuevo motor de física",
+    "content": "He desarrollado un nuevo motor de física para juegos 2D. ¿Alguien quiere probarlo?",
+    "created_at": { "$date": "1985-03-15T14:00:00Z" },
+    "comments": [
+      {
+        "author_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c1" },
+        "text": "¡Me encantaría probarlo!",
+        "created_at": { "$date": "1985-03-15T15:00:00Z" }
+      },
+      {
+        "author_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+        "text": "¿Es compatible con Unity?",
+        "created_at": { "$date": "1985-03-15T15:30:00Z" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64f9c4602f8e4b3d9ef1a213" },
+    "channel_id": { "$oid": "64f9c4152f8e4b3d9ef1a203" },
+    "author_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+    "title": "Nuevo récord mundial",
+    "content": "¡Acabo de establecer un nuevo récord mundial en CodeBreaker! 2:45 minutos",
+    "created_at": { "$date": "1985-03-16T16:45:00Z" },
+    "comments": [
+      {
+        "author_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c3" },
+        "text": "¡Increíble! ¿Podrías compartir tu estrategia?",
+        "created_at": { "$date": "1985-03-16T17:00:00Z" }
+      }
+    ]
+  }
+]

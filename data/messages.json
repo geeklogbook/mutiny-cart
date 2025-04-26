@@ -1,0 +1,23 @@
+[
+  {
+    "_id": { "$oid": "64f9c3d42f8e4b3d9ef1a1f2" },
+    "sender_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c1" },
+    "receiver_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+    "content": "¿Jugamos otra ronda esta noche?",
+    "sent_at": { "$date": "1985-03-16T18:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64f9c3d42f8e4b3d9ef1a1f3" },
+    "sender_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+    "receiver_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c1" },
+    "content": "¡Claro! ¿A qué hora?",
+    "sent_at": { "$date": "1985-03-16T18:05:00Z" }
+  },
+  {
+    "_id": { "$oid": "64f9c3d42f8e4b3d9ef1a1f4" },
+    "sender_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c3" },
+    "receiver_id": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+    "content": "¿Viste el nuevo truco que encontré?",
+    "sent_at": { "$date": "1985-03-16T17:30:00Z" }
+  }
+]

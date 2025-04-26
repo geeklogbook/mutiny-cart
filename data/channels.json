@@ -1,0 +1,36 @@
+[
+  {
+    "_id": { "$oid": "64f9c4152f8e4b3d9ef1a201" },
+    "name": "Tips y Trucos",
+    "description": "Compartí tus mejores estrategias para ganar.",
+    "created_by": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c1" },
+    "members": [
+      { "$oid": "64f9c2aa2f8e4b3d9ef1a1c1" },
+      { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" }
+    ],
+    "created_at": { "$date": "1985-03-10T14:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64f9c4152f8e4b3d9ef1a202" },
+    "name": "Desarrollo de Juegos",
+    "description": "Comunidad de desarrolladores de juegos",
+    "created_by": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c3" },
+    "members": [
+      { "$oid": "64f9c2aa2f8e4b3d9ef1a1c1" },
+      { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+      { "$oid": "64f9c2aa2f8e4b3d9ef1a1c3" }
+    ],
+    "created_at": { "$date": "1985-03-11T09:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64f9c4152f8e4b3d9ef1a203" },
+    "name": "Speedrunners",
+    "description": "Comparte tus récords y estrategias de speedrun",
+    "created_by": { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+    "members": [
+      { "$oid": "64f9c2aa2f8e4b3d9ef1a1c2" },
+      { "$oid": "64f9c2aa2f8e4b3d9ef1a1c3" }
+    ],
+    "created_at": { "$date": "1985-03-12T16:00:00Z" }
+  }
+]
